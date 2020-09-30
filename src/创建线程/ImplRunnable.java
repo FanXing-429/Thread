@@ -1,5 +1,6 @@
 package 创建线程;
 
+//实现 Runnable 接口，让 ImplRunnable 变为线程类
 public class ImplRunnable implements Runnable {
     @Override
     public void run() {
